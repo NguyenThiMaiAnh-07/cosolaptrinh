@@ -12,6 +12,3 @@ elif x/y and y==0:
     print("Khong hop le",y=0)
 else:
     print("Khong hop le")
-    
-
-    

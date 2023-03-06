@@ -1,8 +1,10 @@
 a=int(input())
 b=int(input())
 c=int(input())
-ĐTB=(a*2+b*3+c)/6
-if ĐTB<3:
+
+ĐTB = (a*2 + b*3 + c) / 6
+
+if ĐTB < 3:
     print("Kém")
 elif 3<=ĐTB<5:
     print("Yếu")
@@ -15,7 +17,4 @@ elif 7<=ĐTB<8:
 elif 8<=ĐTB<9:
     print("Giỏi")     
 else:
-     print("Xuất sắc")
-     
-    
-
+    print("Xuất sắc")

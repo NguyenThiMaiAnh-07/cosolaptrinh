@@ -11,4 +11,3 @@ elif  (a + b <= c) or (a + c <= b) or (b + c <= a) or (a
     print("Khong hop le")
 else:
     print("Tam giac loai khac")
-    
