@@ -16,5 +16,5 @@ else:
 PhaiTra = TienDien*1.1
 print("Phai tra=",PhaiTra,sep="")
 
-    
 
+    
