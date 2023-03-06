@@ -1,9 +1,13 @@
-i=1
-while i<=6:
-     j=1
-     while j<=i:
-         print("*", end="")
-
-         j=j+1
-     print("\n")
-     i=i+1
+a=float(input())
+b=float(input())
+c=float(input())
+a,b,c>0
+if (a==b==c):
+    print("Tam giac deu")
+elif (a*a == b * b + c * c) or (b * b == a * a + c * c) or (c * c == a * a + b * b):
+    print("Tam giac vuong")
+elif  (a + b <= c) or (a + c <= b) or (b + c <= a) or (a 
+<= 0) or (b <= 0) or(c <= 0):
+    print("Khong hop le")
+else:
+    print("Tam giac loai khac")
